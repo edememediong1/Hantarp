@@ -10,11 +10,11 @@ function Hero() {
           <h1 className="text-2xl sm:text-2xl md:text-3xl lg:text-5xl xl:text-[60px] font-bold leading-tight sm:leading-tight md:leading-tight lg:leading-tight xl:leading-[1.23] text-[#FFD488] tracking-tighter">
             Elevate Your Business with Fully
           </h1>
-          <p className="text-2xl sm:text-2xl md:text-3xl lg:text-5xl xl:text-[60px] leading-tight sm:leading-tight md:leading-tight lg:leading-tight xl:leading-[1.23] tracking-tight">
+          <p className="text-2xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-[55px] leading-tight sm:leading-tight md:leading-tight lg:leading-tight xl:leading-[1.23] tracking-tighter">
             Managed IT Solutions from HanTarp
           </p>
         </div>
-        <p className="font-medium text-justify text-sm sm:text-base md:text-[16px] lg:text-[18px] max-w-prose tracking-tighter">
+        <p className="font-medium text-justify text-sm sm:text-base md:text-[16px] lg:text-[18px] max-w-prose tracking-tighter mt-4">
           In today&apos;s fast-paced digital landscape, your IT infrastructure is the backbone of your business. At HanTarp
           LLC, we specialize in proactive, scalable, and secure IT management—so you can focus on growth without
           worrying about downtime, cyber threats, or inefficient systems.

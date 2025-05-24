@@ -15,7 +15,7 @@ const navLinks = [
   { href: "/contact", label: "Contact Us" },
 ]
 
-export function Navbar() {
+export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
 
   const toggleMenu = () => {
@@ -66,7 +66,7 @@ export function Navbar() {
       </div>
 
       {/* Mobile Navigation */}
-      <div className={cn("absolute left-0 right-0 z-10 bg-white shadow-lg md:hidden", isMenuOpen ? "block" : "hidden")}>
+      <div className={cn("absolute left-0 right-0 z-20 bg-white shadow-lg md:hidden", isMenuOpen ? "block" : "hidden")}>
         <div className="space-y-1 px-4 pb-3 pt-2">
           {navLinks.map((link) => (
             <Link

@@ -10,7 +10,7 @@ function Services() {
             <article className='flex flex-col gap-4 w-full md:w-3/5 lg:w-1/2 md:p-8 lg:pl-14 p-4'>
                 <h2 className='text-4xl font-bold '>Our Services</h2>
                 <p className=' text-[18px] md:text-xl font-medium md:w-[95%] lg:w-[70%] tracking-tighter'>End-to-End IT Infrastructure Management for Uninterrupted Business Operations</p>
-                <Button className='bg-[#FFD488] p-4 rounded-2xl w-[160px] text-black'>
+                <Button className='bg-[#FFD488] p-4 rounded-2xl w-[160px] text-black hover:bg-white'>
                     <Link href={'/contact'}>Discover More</Link>
                 </Button>
             </article>
@@ -22,10 +22,10 @@ function Services() {
                 className='hidden md:block w-2/5'
              /> 
         </section>
-        <section className=' grid grid-cols-1 md:grid-cols-2 md:gap-12 p-4 md:p-8 text-white'>
-          <article className='relative h-[370px] gap-4 '>
+        <section className=' grid grid-cols-1 md:grid-cols-2 md:gap-12 p-4 md:p-8 text-white gap-4'>
+          <article className='relative h-auto md:h-[370px] gap-4 '>
             <Image src={'bgcard_1.svg'} alt='' fill className='object-cover '/>
-            <div className='absolute top-0 bottom-0 left-0 w-full h-full bg-black/30 flex flex-col gap-4 p-8'>
+            <div className='absolute top-0 bottom-0 left-0 w-full h-full bg-black/30 flex flex-col gap-4 p-4 md:p-8'>
               <h2 className="text-2xl font-bold text-[#FFDAA3]">Managed IT Services</h2>
               <div>
                 <h3 className='font-bold'>24/7 Network Monitoring & Maintenance</h3>
