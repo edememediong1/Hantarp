@@ -42,7 +42,7 @@ export default function Navbar() {
                 <Link
                   key={link.href}
                   href={link.href}
-                  className={cn("ml-4 py-2 text-sm font-medium text-gray-700 hover:bg-gray-100 hover:text-gray-900",
+                  className={cn("ml-4 py-2 text-sm font-medium text-gray-700 hover:text-gray-900",
                   pathname === link.href && "border-b-2 border-slate-900 font-bold")}
                 >
                   {link.label}

@@ -9,6 +9,7 @@ import { urlFor } from '@/sanity/lib/image'
 // import { Title } from './Title'
 import { POST_QUERYResult } from '@/sanity/types'
 // import { SanityImageSource } from '@sanity/image-url/lib/types/types'
+import { PublishedAt } from './PublishedAtProps'
 
 
 function BlogSearch(posts : { posts : POST_QUERYResult[] }) {
@@ -61,12 +62,12 @@ function BlogSearch(posts : { posts : POST_QUERYResult[] }) {
         {currentPosts.length > 0 ? (
           currentPosts.map((post) => (
             post ? (
-              <li key={post._id} className="bg-white shadow-sm rounded-lg overflow-hidden p-4 flex flex-col justify-between space">
+              <li key={post._id} className="relative bg-white shadow-md rounded-lg overflow-hidden flex flex-col justify-between space-y-4">
                 
                 {post.mainImage ? (
                   <div className="relative mb-4 ">
                     <Image
-                      className="w-full h-[250px] object-cover rounded-lg"
+                      className="w-full h-[250px] object-cover rounded-lg z-20"
                       src={urlFor(post.mainImage.asset?._ref || '')
                         .width(400)
                         .height(400)
@@ -79,11 +80,15 @@ function BlogSearch(posts : { posts : POST_QUERYResult[] }) {
                     />
                   </div>
                 ) : null}
-              
-                <h2 className='font-medium text-bold'>{post.title}</h2>
-                <Link className=" p-3 text-sm bg-[#004A61] hover:bg-[#232f3f] w-1/2 text-white rounded-lg flex justify-center items-center" href={`/blog/${post.slug?.current}`}>
-                  Read More
-                </Link>
+                <div className='absolute top-5 left-2 z-50 bg-[#f1f1f1] p-2 rounded-lg shadow-md text-sm'>
+                  <PublishedAt publishedAt={post.publishedAt} />
+                </div>
+                <div className='p-4 w-full space-y-4'>
+                  <h2 className='font-medium text-bold'>{post.title}</h2>
+                  <Link className=" p-3 text-sm bg-[#004A61] hover:bg-[#232f3f] w-1/2 text-white rounded-lg flex justify-center items-center" href={`/blog/${post.slug?.current}`}>
+                    Read More
+                  </Link>
+                </div>
               </li>
             ) : null
           ))
