@@ -71,7 +71,7 @@ function Newsletter() {
               </div>
             )}
         </section>
-        <form onSubmit={handleSubmit}  className='flex border-2 border-[#004A61] rounded-full gap-2 h-[60px] justify-between md:max-w-[600px]'>
+        <form onSubmit={handleSubmit}  className='flex border-2 border-[#004A61] rounded-full gap-2 h-[60px] justify-between md:max-w-[600px] overflow-hidden'>
             <input 
               type="text" 
               name='newsletter' 
@@ -81,7 +81,7 @@ function Newsletter() {
               onChange={(e) => setEmail(e.target.value)} 
               disabled={isSubmitting} 
               required 
-              className='w-full pl-6 outline-none '
+              className='w-full pl-6 outline-none autofill:bg-[#FFDAA3] autofill:text-[#004A61] autofill:shadow-[inset_0_0_0px_1000px_#FFDAA3]'
             />
             <button className='bg-[#004A61] rounded-full p-3 h-full w-[60px] flex items-center justify-center' disabled={isSubmitting} type='submit'>
               {isSubmitting ? (
