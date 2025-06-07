@@ -87,6 +87,7 @@ function Newsletter() {
               {isSubmitting ? (
                 <Loader2 className='w-5 h-5 text-white animate-spin' />
               ) : (
+                
                 <Image src="message.svg" alt='Subscribe' width={25} height={25} />
               )}
 
