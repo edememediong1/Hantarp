@@ -23,9 +23,9 @@ function Services() {
              /> 
         </section>
         <section className=' grid grid-cols-1 md:grid-cols-2 md:gap-12 p-4 md:p-8 text-white gap-4'>
-          <article className='relative h-auto md:h-[370px] gap-4 '>
+          <article className='relative h-[450px] md:h-[370px] lg:h-[350px] gap-4 '>
             <Image src={'bgcard_1.svg'} alt='' fill className='object-cover '/>
-            <div className='absolute top-0 bottom-0 left-0 w-full h-full bg-black/30 flex flex-col gap-4 p-4 md:p-8'>
+            <div className='absolute top-0 bottom-0 left-0 w-full h-full bg-black/30 flex flex-col justify-center gap-4 p-4 md:p-8'>
               <h2 className="text-2xl font-bold text-[#FFDAA3]">Managed IT Services</h2>
               <div>
                 <h3 className='font-bold'>24/7 Network Monitoring & Maintenance</h3>
@@ -44,66 +44,63 @@ function Services() {
             </div>
           </article>
 
-          {/*  */}
-          <article className='relative h-[370px] gap-4 '>
-            <Image src={'bgcard_1.svg'} alt='' fill className='object-cover '/>
-            <div className='absolute top-0 left-0 w-full h-full bg-black/30 flex flex-col gap-4 p-8'>
-              <h2 className='text-2xl font-bold text-[#FFDAA3]'>Managed IT Services</h2>
+          {/* 2 */}
+          <article className='relative h-[450px] md:h-[370px] lg:h-[350px] gap-4 '>
+            <Image src={'bgcard_2.svg'} alt='' fill className='object-cover '/>
+            <div className='absolute top-0 left-0 w-full h-full bg-black/30 flex flex-col justify-center gap-4 p-4 md:p-8'>
+              <h2 className='text-2xl font-bold text-[#FFDAA3]'>Cloud & Hybrid IT Solutions</h2>
               <div>
-                <h3 className='font-bold'>24/7 Network Monitoring & Maintenance</h3>
+                <h3 className='font-bold'>Advanced Threat Protection</h3>
                 <ul className='list-disc pl-2 tracking-tighter'>
-                  <li>Real-time monitoring of servers, workstations, and devices</li>
-                  <li>Automated alerts and rapid resolution to prevent downtime.</li>
+                  <li>Endpoint Detection & Response (EDR), SIEM, and firewall management</li>
+                  <li>Regular vulnerability assessments and penetration testing.</li>
                 </ul>
               </div>
               <div>
-                <h3 className='font-bold'>Helpdesk & Technical Support</h3>
+                <h3 className='font-bold'>Regulatory Compliance</h3>
                 <ul className='list-disc pl-2 tracking-tighter'>
-                  <li>Real-time monitoring of servers, workstations, and devices</li>
-                  <li>Automated alerts and rapid resolution to prevent downtime.</li>
+                  <li>HIPAA, GDPR, SOC 2, and industry-specific compliance frameworks</li>
+                  <li>Audit preparation and documentation.</li>
                 </ul>
               </div>
             </div>
           </article>
           {/*  */}
-          <article className='relative h-[370px] gap-4 '>
-            <Image src={'bgcard_1.svg'} alt='' fill className='object-cover '/>
-            <div className='absolute top-0 left-0 w-full h-full bg-black/30 flex flex-col gap-4 p-8'>
-              <h2 className='text-2xl font-bold text-[#FFDAA3]'>Managed IT Services</h2>
+          <article className='relative h-[450px] md:h-[370px] lg:h-[350px] gap-4 '>
+            <Image src={'bgcard_3.svg'} alt='' fill className='object-cover '/>
+            <div className='absolute top-0 left-0 w-full h-full bg-black/30 flex flex-col justify-center gap-4 p-4 md:p-8'>
+              <h2 className='text-2xl font-bold text-[#FFDAA3]'>Cybersecurity & Compliance</h2>
               <div>
-                <h3 className='font-bold'>24/7 Network Monitoring & Maintenance</h3>
+                <h3 className='font-bold'>Cloud Migration & Optimization</h3>
                 <ul className='list-disc pl-2 tracking-tighter'>
-                  <li>Real-time monitoring of servers, workstations, and devices</li>
-                  <li>Automated alerts and rapid resolution to prevent downtime.</li>
+                  <li>Seamless transitions to AWS, Azure, or private cloud environments.</li>
+                  <li>Cost optimization and performance tuning.</li>
                 </ul>
               </div>
               <div>
-                <h3 className='font-bold'>Helpdesk & Technical Support</h3>
+                <h3 className='font-bold'>Disaster Recovery & Business Continuity</h3>
                 <ul className='list-disc pl-2 tracking-tighter'>
-                  <li>Real-time monitoring of servers, workstations, and devices</li>
-                  <li>Automated alerts and rapid resolution to prevent downtime.</li>
+                  <li>Automated backups, failover systems, and ransomware recovery</li>
                 </ul>
               </div>
             </div>
           </article>
 
           {/*  */}
-          <article className='relative h-[370px] gap-4 '>
-            <Image src={'bgcard_1.svg'} alt='' fill className='object-cover '/>
-            <div className='absolute top-0 left-0 w-full h-full bg-black/30 flex flex-col gap-4 p-8'>
-              <h2 className='text-2xl font-bold text-[#FFDAA3]'>Managed IT Services</h2>
+          <article className='relative h-[450px] md:h-[370px] lg:h-[350px] gap-4 '>
+            <Image src={'bgcard_4.svg'} alt='' fill className='object-cover '/>
+            <div className='absolute top-0 left-0 w-full h-full bg-black/30 flex flex-col justify-center gap-4 p-4 md:p-8'>
+              <h2 className='text-2xl font-bold text-[#FFDAA3]'>Strategic IT Consulting</h2>
               <div>
-                <h3 className='font-bold'>24/7 Network Monitoring & Maintenance</h3>
+                <h3 className='font-bold'>Technology Roadmapping</h3>
                 <ul className='list-disc pl-2 tracking-tighter'>
-                  <li>Real-time monitoring of servers, workstations, and devices</li>
-                  <li>Automated alerts and rapid resolution to prevent downtime.</li>
+                  <li>Align IT investments with long-term business goals</li>
                 </ul>
               </div>
               <div>
-                <h3 className='font-bold'>Helpdesk & Technical Support</h3>
+                <h3 className='font-bold'>Vendor & License Management</h3>
                 <ul className='list-disc pl-2 tracking-tighter'>
-                  <li>Real-time monitoring of servers, workstations, and devices</li>
-                  <li>Automated alerts and rapid resolution to prevent downtime.</li>
+                  <li>Centralized management of software, hardware, and service providers.</li>
                 </ul>
               </div>
             </div>

@@ -70,19 +70,19 @@ const Forms: React.FC = () => {
           <section className="grid grid-cols-1 md:grid-cols-2 md:gap-2 lg:gap-4 mt-4 lg:w-[80%] text-[16px] lg:text-[18px]">
             <span className="flex items-center gap-2">
               <input type="radio" name="feedback" id="inquiry" width={30} height={30} value='General Inquiry'/>
-              <label htmlFor="inquiry">General Inquiry</label>
+              <label htmlFor="inquiry" className="lg:text-sm">General Inquiry</label>
             </span>
             <span className="flex items-center gap-2">
               <input type="radio" name="feedback" id="inquiry" value='Service Complaint'/>
-              <label htmlFor="complaint">Service Complaint</label>
+              <label htmlFor="complaint" className="lg:text-sm">Service Complaint</label>
             </span>
             <span className="flex items-center gap-2">
               <input type="radio" name="feedback" id="support" value='Technical Support' />
-              <label htmlFor="support">Technical Support</label>
+              <label htmlFor="support" className="lg:text-sm">Technical Support</label>
             </span>
             <span className="flex items-center gap-2">
               <input type="radio" name="feedback" id="suggest" value='Suggestion for Improvement'/>
-              <label htmlFor="suggest">Suggestion for Improvement</label>
+              <label htmlFor="suggest" className='lg:text-sm'>Suggestion for Improvement</label>
             </span>
           </section>
         </div>
@@ -92,19 +92,19 @@ const Forms: React.FC = () => {
           <section className="grid grid-cols-1 md:grid-cols-2 md:gap-2 lg:gap-4 mt-4 lg:w-[80%] text-[16px] lg:text-[18px]">
             <span className="flex items-center gap-2">
               <input type="radio" name="service" id="inquiry" width={30} height={30} value='Managed IT Services'/>
-              <label htmlFor="inquiry">Managed IT Services</label>
+              <label htmlFor="inquiry" className="lg:text-sm">Managed IT Services</label>
             </span>
             <span className="flex items-center gap-2">
               <input type="radio" name="service" id="inquiry" value="Cybersecurity and Compliance" />
-              <label htmlFor="complaint">Cybersecurity and Compliance</label>
+              <label htmlFor="complaint" className='lg:text-sm'>Cybersecurity and Compliance</label>
             </span>
             <span className="flex items-center gap-2">
               <input type="radio" name="service" id="support" value="Cloud solutions"/>
-              <label htmlFor="support">Cloud solutions</label>
+              <label htmlFor="support" className="lg:text-sm">Cloud solutions</label>
             </span>
             <span className="flex items-center gap-2">
               <input type="radio" name="service" id="suggest" value="Strategic consulting" />
-              <label htmlFor="suggest">Strategic consulting</label>
+              <label htmlFor="suggest" className="lg:text-sm">Strategic consulting</label>
             </span>
           </section>
         </div>

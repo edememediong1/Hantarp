@@ -24,7 +24,7 @@ function Features() {
                     alt='time' 
                     className="object-cover"
                     />
-                    <p className='absolute bottom-0 bg-[rgb(7,38,48)] p-6 text-white w-[70%]'>
+                    <p className='absolute bottom-0 bg-[rgb(7,38,48)] p-4 text-white w-[70%]'>
                         24/7 Proactive Monitoring 
                     </p>
                 </article>
@@ -36,7 +36,7 @@ function Features() {
                         alt='flat-rate'
                         className='object-cover' 
                     />
-                    <p className='absolute bottom-0 bg-[rgb(7,38,48)] p-6 text-white w-[70%]'>
+                    <p className='absolute bottom-0 bg-[rgb(7,38,48)] p-4 text-white w-[70%]'>
                         Flat-Rate Pricing 
                         with Zero Surprises
                     </p>
@@ -52,7 +52,7 @@ function Features() {
                 alt='pic1'
                 className="object-cover"
                 />
-                <p className='absolute bottom-0 bg-[rgb(7,38,48)] p-6 text-white w-[70%]'>
+                <p className='absolute bottom-0 bg-[rgb(7,38,48)] p-4 text-white w-[70%]'>
                     Industry-Tailored IT Solutions
                 </p>
             </article>
@@ -64,7 +64,7 @@ function Features() {
                     alt='pic2'
                     className='object-cover' 
                 />
-                <p className='absolute bottom-0 bg-[rgb(7,38,48)] p-6 text-white w-[70%]'>
+                <p className='absolute bottom-0 bg-[rgb(7,38,48)] p-4 text-white w-[70%]'>
                     Rapid Response Guarantee
                 </p>
             </article>
@@ -76,7 +76,7 @@ function Features() {
                     alt='pic3'
                     className='object-cover' 
                 />
-                <p className='absolute bottom-0 bg-[rgb(7,38,48)] p-6 text-white w-[70%]'>
+                <p className='absolute bottom-0 bg-[rgb(7,38,48)] p-4 text-white w-[70%]'>
                     Cybersecurity That Adapts
                 </p>
             </article>
