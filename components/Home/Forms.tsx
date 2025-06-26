@@ -67,7 +67,7 @@ const Forms: React.FC = () => {
         </div>
         <div className="">
           <p className="text-xl font-bold">Feedback Type</p>
-          <section className="grid grid-cols-1 md:grid-cols-2 md:gap-2 lg:gap-4 mt-4 lg:w-[80%] text-[16px] lg:text-[18px]">
+          <section className="grid grid-cols-1 md:grid-cols-2 md:gap-2 lg:gap-4 mt-4 lg:w-[90%] text-[16px] lg:text-[18px]">
             <span className="flex items-center gap-2">
               <input type="radio" name="feedback" id="inquiry" width={30} height={30} value='General Inquiry'/>
               <label htmlFor="inquiry" className="lg:text-sm">General Inquiry</label>
@@ -89,7 +89,7 @@ const Forms: React.FC = () => {
 
         <div className="">
           <h2 className="text-xl font-bold">Service Category</h2>
-          <section className="grid grid-cols-1 md:grid-cols-2 md:gap-2 lg:gap-4 mt-4 lg:w-[80%] text-[16px] lg:text-[18px]">
+          <section className="grid grid-cols-1 md:grid-cols-2 md:gap-2 lg:gap-4 mt-4 lg:w-[90%] text-[16px] lg:text-[18px]">
             <span className="flex items-center gap-2">
               <input type="radio" name="service" id="inquiry" width={30} height={30} value='Managed IT Services'/>
               <label htmlFor="inquiry" className="lg:text-sm">Managed IT Services</label>
@@ -116,7 +116,6 @@ const Forms: React.FC = () => {
               {submitStatus.message}
             </div>
           )}
-
     </form>
   )
 }

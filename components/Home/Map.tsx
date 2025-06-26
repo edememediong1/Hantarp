@@ -1,5 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
+import phone from "@/public/phone.png"
+
 
 function Map() {
   return (
@@ -17,11 +19,11 @@ function Map() {
             </div>
             <div className='flex items-center bg-[#FFDAA3] p-2 gap-2 w-[220px] rounded-full'>
                 <span className='bg-[#004A61] p-2 rounded-full'>
-                    <Image src="phone_icon.svg" alt="home icon" width={15} height={15} className=''/>
+                    <Image src={phone} alt="home icon" width={15} height={15} className=''/>
                 </span>
                 <span>
                     <h2 className='text-[18px] font-bold text-[#004A61]'>Have Queries?</h2>
-                    <p className='text-[14px] font-medium text-black'>info@hantarp.com</p>
+                    <p className='text-[14px] font-medium text-black'>support@hantarp.com</p>
                 </span>
             </div>
             
