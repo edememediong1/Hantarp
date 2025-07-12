@@ -4,7 +4,7 @@ import { Button } from '../ui/button'
 import Image from 'next/image'
 
 
-function Different() {
+function Different(){
   return (
     <div className='bg-[#004A61] flex flex-col md:flex-row justify-between p-4 md:p-8 gap-6'>
         <article className="lg:h-[400px] flex flex-col justify-center gap-4 md:gap-8 w-full  " >
