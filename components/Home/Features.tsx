@@ -10,7 +10,7 @@ function Features() {
         <section className='flex flex-col md:flex-row'>
             <article className="h-[400px] flex flex-col justify-center gap-8 w-full md:w-1/2 " >
                 <h2 className="font-bold text-[#FFD488] text-4xl">Key Features</h2>
-                <p className="text-[18px] md:text-xl text-white lg:w-[70%]">We deliver enterprise-grade IT solutions that work tirelessly in the background. so your business stays secure, efficient, and always ahead.</p>
+                <p className="text-[18px] md:text-xl text-white lg:w-[70%]">Enjoy enterprise-grade IT solutions that work tirelessly in the background, so your business stays secure, efficient, and always ahead.</p>
                 <Link href='/contact' >
                     <Button className='bg-[#FFD488] p-4 rounded-2xl w-[160px] text-black'>Discover More</Button>
                 </Link>
@@ -30,7 +30,7 @@ function Features() {
                 </article>
                 <article className='relative h-[400px]'>
                     <Image
-                        src={'flat-rate.svg'}
+                        src={'handshake.jpg'}
                         fill
                         unoptimized
                         alt='flat-rate'
